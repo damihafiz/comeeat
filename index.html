@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>ComeEat</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<header>
+<a href="" class="logo"> <i class="fas fa-utensils"></i> ComeEat.</a>
+<nav class="navbar">
+	<a class="active" href="#home">Home</a>
+	<a href="#dishes">Dishes</a>
+	<a href="#about">About</a>
+	<a href="#Review">Review</a> 
+	<a href="#Order">Order</a>
+</nav>
+<div class="icons">
+	<i class="fas fa-bars" id="menu-bars"></i>
+	<i class="fas fa-search" id="search-icon"></i>
+	<a href="#" class="fas fa-shopping-cart"></a>
+	<a href="#" class="fas fa-heart"></a>
+</div>
+</header>
+
+<form action="" id="search-form">
+	<input type="search" placeholder="search here" name="" id="search-box">
+	<label for="search-box" class="fas fa-search"></label>
+	<i class="fas fa-times" id="close"></i>
+</form>
+
+
+<section class="home" id="home">
+	<div class="swiper home-slider">
+		<div class="swiper-wrapper wrapper">
+			<div class="swiper-slide slide">
+				<div class="content">
+					<span>our special dish</span>
+					<h3>Salad</h3>
+					<p>Delish Cilantro lime chicken and rice served with Salad</p>
+					<a href="#" class="btn">Order now</a>
+				</div>
+				<div class="image">
+				<img src="image/rice.png" alt="">
+				</div>
+			</div>	
+			<div class="swiper-slide slide">
+				<div class="content">
+					<span>our special dish</span>
+					<h3>steak</h3>
+					<p>T-bone steak served with cucumber and cabbage</p>
+					<a href="#" class="btn">Order now</a>
+				</div>
+				<div class="image">
+				<img src="image/steak.png" alt="">
+				</div>
+			</div>	
+			<div class="swiper-slide slide">
+				<div class="content">
+					<span>our special dish</span>
+					<h3>Rice</h3>
+					<p>Plain Rice served with chicken teriyaki and broccoli</p>
+					<a href="#" class="btn">Order now</a>
+				</div>
+				<div class="image">
+				<img src="image/Salad.png" alt="">
+				</div>
+			</div>			
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</section>
+
+<section class="dishes" id="dishes">
+	<h3 class="sub-heading">Our Dishes</h3>
+	<h1 class="heading">Popular Dishes</h1>
+
+	<div class="box-container">
+		
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/food1.png" alt="">
+		<h3>Fish</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/steak.png" alt="">
+		<h3>Steak</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/rice.png" alt="">
+		<h3>Salad</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/food2.png" alt="">
+		<h3>Cooked Meat</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/food3.png" alt="">
+		<h3>Kebab</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+
+		<div class="box">
+		<a href="#" class="fas fa-heart"></a>
+		<a href="#" class="fas fa-eye"></a>
+		<img src="image/salad.png" alt="">
+		<h3>Rice</h3>	
+		<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+		<span>$15.99</span>
+		<a href="#" class="btn">add to cart</a>
+		</div>
+	</div>	
+</section>
+
+
+<section class="about" id="about">
+	<h3 class="sub-heading">about us</h3>
+	<h1 class="heading">why choose us </h1>
+	
+	<div class="row">
+		
+		<div class="image">
+			<img src="image/steak.png" alt="">
+		</div>
+
+		<div class="content">
+			<h3>best food in the country</h3>
+			<p>This is gonna be a long text about and all the food we dont cook stay tuned</p>
+			<p>more shit we dont do that you would get to find out about </p>
+			<div class="icons-container">
+				<div class="icons">
+					<i class="fas fa-shipping-fast"></i>
+					<span>free delivery</span>	
+				</div>
+				<div class="icons">
+					<i class="fas fa-dollar-sign"></i>
+					<span>easy payment</span>	
+				</div>
+				<div class="icons">
+					<i class="fas fa-headset"></i>
+					<span>24/7 service</span>	
+				</div>
+			</div>
+			<a href="#" class="btn">learn more</a>
+		</div>
+	</div>
+</section>
+
+
+<section class="review" id="review">
+	<h3 class="sub-heading"> customer's review</h3>
+	<h1 class="heading">what they say</h1>
+
+	<div class="swiper review-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="image/pic1.jpg">
+					<div class="user-info">
+						<h3>john doe</h3>
+						<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+					</div>
+				</div>
+				<p>This is a really great restaurant. I have not expirience any delay or hitch since i started using the platform it has been an all round to use your platform</p>
+			</div>
+			<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="image/pic2.jpg">
+					<div class="user-info">
+						<h3>john doe</h3>
+						<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+					</div>
+				</div>
+				<p>This is a really great restaurant. I have not expirience any delay or hitch since i started using the platform it has been an all round to use your platform</p>
+			</div>
+			<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="image/pic3.jpg">
+					<div class="user-info">
+						<h3>john doe</h3>
+						<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+					</div>
+				</div>
+				<p>This is a really great restaurant. I have not expirience any delay or hitch since i started using the platform it has been an all round to use your platform</p>
+			</div>
+			<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="image/pic4.jpg">
+					<div class="user-info">
+						<h3>john doe</h3>
+						<div class="stars">
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+		</div>
+					</div>
+				</div>
+				<p>This is a really great restaurant. I have not expirience any delay or hitch since i started using the platform it has been an all round to use your platform</p>
+			</div>
+
+		</div>
+	</div>
+	
+</section>
+
+<section class="order" id="order">
+	<h3 class="sub-heading">order now</h3>
+	<h1 class="heading">free and fast</h1>
+
+
+	<form action="">
+
+		<div class="inputBox">
+			<div class="input">
+				<span>your name</span>
+				<input type="text" placeholder="enter your name">
+			</div>
+			<div class="input">
+				<span>your number</span>
+				<input type="number" placeholder="enter your number">
+			</div>
+		</div>
+		<div class="inputBox">
+			<div class="input">
+				<span>your order</span>
+				<input type="test" placeholder="enter food name">
+			</div>
+			<div class="input">
+				<span>additional food</span>
+				<input type="text" placeholder="extra with food">
+			</div>
+		</div>
+		<div class="inputBox">
+			<div class="input">
+				<span>how much</span>
+				<input type="text" placeholder="how many orders">
+			</div>
+			<div class="input">
+				<span>date and time</span>
+				<input type="datetime-local">
+			</div>
+		</div>
+		<div class="inputBox">
+			<div class="input">
+				<span>your address</span>
+				<textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="input">
+				<span>your message</span>
+				<textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+			</div>
+		</div>
+		<input type="submit" name="" value="order now" class="btn">
+
+
+	</form>
+
+</section>
+
+<section class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>locations</h3>
+			<a href="#">USA</a>
+			<a href="#">United Kingdom</a>
+			<a href="#">Japan</a>
+			<a href="#">France</a>
+		</div>
+		<div class="box">
+			<h3>quick links</h3>
+			<a href="#home">Home</a>
+			<a href="#dishes">Dishes</a>
+			<a href="#about">About</a>
+			<a href="#review">Review</a>
+			<a href="#order">Order</a>
+		</div>
+		<div class="box">
+			<h3>contact info</h3>
+			<a href="#">+234-810-1012-838</a>
+			<a href="#">damilolahafix@gmail.com</a>
+			<a href="#">FCT-Abuja, Nigeria 900101</a>
+		</div>
+	</div>
+	<div class="credit"> copyright @ 2021 by <span>HAfiz DEV</span></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
